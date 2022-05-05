@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ROOT_DIR=$(pwd)
 START=$(date +"%s")
-chat_id="-1001348632957"
+chat_id="-1001293242785"
 tanggal=$(TZ=Asia/Jakarta date "+%Y%m%d-%H%M")
 
 if [ $DEVICE = vince ]; then
