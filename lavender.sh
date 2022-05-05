@@ -1,7 +1,7 @@
 # ENV for device
 # CODENAME="Come_Back"
 # TYPE="BLC"
-ZIP_NAME="aLn-${CODENAME}-4.19-${TYPE}-lavender-${tanggal}.zip"
+ZIP_NAME="Test.zip"
 IMAGE=$(pwd)/out/arch/arm64/boot/Image.gz-dtb
 START=$(date +"%s")
 
@@ -14,8 +14,8 @@ export PATH="/root/sdclang-10/bin:/root/aosp/gcc32/bin:/root/aosp/gcc/bin:${PATH
 
 # Env for kernel
 export ARCH=arm64
-export KBUILD_BUILD_USER=alanndz
-export KBUILD_BUILD_HOST=BiancaProject
+export KBUILD_BUILD_USER=kazudante
+export KBUILD_BUILD_HOST=Lab
 SF_PATH="AOSP"
 
 # path link web
